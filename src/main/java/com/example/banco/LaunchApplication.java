@@ -11,7 +11,7 @@ public class LaunchApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(LaunchApplication.class.getResource("Launch.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 320, 240);
+        Scene scene = new Scene(fxmlLoader.load());
         stage.setTitle("Banco!");
         stage.setScene(scene);
         stage.show();
