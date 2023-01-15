@@ -9,12 +9,11 @@
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.banco.PaginaPrincipalController">
    <children>
-      <Label fx:id="LabelNome" layoutX="244.0" layoutY="34.0" prefHeight="26.0" prefWidth="112.0" text="Nome" textAlignment="CENTER" wrapText="true" />
-      <Button layoutX="428.0" layoutY="284.0" mnemonicParsing="false" onAction="#onOperacoesButtonClick" text="Operações" />
-      <Button fx:id="btnConta" layoutX="110.0" layoutY="284.0" mnemonicParsing="false" onAction="#onContaButtonClick" text="Criar Conta" />
-      <Button layoutX="270.0" layoutY="284.0" mnemonicParsing="false" onAction="#onCartoesButtonClick" text="Cartões" />
+      <Label fx:id="LabelNome" layoutX="134.0" layoutY="35.0" prefHeight="26.0" prefWidth="112.0" text="Nome" textAlignment="CENTER" wrapText="true" />
+      <Button fx:id="btnConta" layoutX="134.0" layoutY="284.0" mnemonicParsing="false" onAction="#onContaButtonClick" prefHeight="72.0" prefWidth="142.0" text="Criar Conta" />
+      <Button layoutX="324.0" layoutY="284.0" mnemonicParsing="false" onAction="#onCartoesButtonClick" prefHeight="72.0" prefWidth="142.0" text="Cartões" />
       <ListView layoutX="149.0" layoutY="90.0" prefHeight="149.0" prefWidth="302.0" />
-      <Label fx:id="LabelSaldo" layoutX="450.0" layoutY="39.0" prefHeight="17.0" prefWidth="131.0" text="Salto total:" />
+      <Label fx:id="LabelSaldo" layoutX="354.0" layoutY="40.0" prefHeight="17.0" prefWidth="112.0" text="Salto total:" />
       <TableView fx:id="tvContas" layoutX="134.0" layoutY="76.0" prefHeight="178.0" prefWidth="332.0">
         <columns>
           <TableColumn fx:id="tcNumeroConta" prefWidth="188.0" text="Número de conta" />

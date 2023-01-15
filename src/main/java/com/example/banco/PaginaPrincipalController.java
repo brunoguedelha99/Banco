@@ -61,24 +61,6 @@ public class PaginaPrincipalController {
         stage.setScene(scene);
         stage.show();
     }
-
-    @FXML
-    protected void onOperacoesButtonClick(ActionEvent event) throws IOException {
-
-        System.out.println("Mudar para contas");
-
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("Operacoes.fxml"));
-        Parent root = loader.load();
-
-        //PaginaPrincipalController firstPageController = loader.getController();
-        //firstPageController.displayName(dataBase.clients.get(client));
-
-        Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-        Scene scene = new Scene(root);
-        stage.setScene(scene);
-        stage.show();
-    }
-
     public void getContasList(Cliente client){
         final ObservableList<ContaModule> contaList= FXCollections.observableArrayList();
         double saldototal = 0;

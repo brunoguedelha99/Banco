@@ -28,7 +28,7 @@ public class LoginATMController {
             if( tfCartao.getText().equals(cartao.getNumero_cartao()) && tfPIN.getText().equals(cartao.getPin())) {
                 System.out.println("Login successful");
 
-                FXMLLoader loader = new FXMLLoader(getClass().getResource("ATMController.fxml"));
+                FXMLLoader loader = new FXMLLoader(getClass().getResource("ATM.fxml"));
                 Parent root = loader.load();
 
                 ATMController atmController = loader.getController();

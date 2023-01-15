@@ -25,6 +25,7 @@ public class LaunchController {
         LoginGestaoController loginGestaoController = loader.getController();
         loginGestaoController.receiveDatabase(dataBase);
 
+        System.out.println(dataBase.clientes.toString());
         Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         Scene scene = new Scene(root);
         stage.setScene(scene);
@@ -36,12 +37,13 @@ public class LaunchController {
 
         System.out.println("Mudar para ATM");
 
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("Cartoes.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("LoginATM.fxml"));
         Parent root = loader.load();
 
         LoginATMController loginATMController = loader.getController();
         loginATMController.receiveDatabase(dataBase);
 
+        System.out.println(dataBase.cartoes.toString());
         Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         Scene scene = new Scene(root);
         stage.setScene(scene);

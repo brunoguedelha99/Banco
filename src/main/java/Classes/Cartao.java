@@ -52,6 +52,16 @@ public abstract class Cartao {
     public void setPin(String pin) {
         this.pin = pin;
     }
+
+    @Override
+    public String toString() {
+        return "Cartao{" +
+                "cliente=" + cliente +
+                ", conta=" + conta +
+                ", numero_cartao='" + numero_cartao + '\'' +
+                ", pin='" + pin + '\'' +
+                '}';
+    }
 }
 
 

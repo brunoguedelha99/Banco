@@ -7,6 +7,7 @@ public class Credito extends Cartao {
         super(cliente,conta);
         this.levantamentos=0;
         this.plafond=0;
+
     }
 
     public float getPlafond() {
@@ -27,8 +28,10 @@ public class Credito extends Cartao {
 
     @Override
     public String toString() {
-        return "Credito{" +
-                "plafond=" + plafond +
+        return "Credito{ " +
+                "Numero do cartão="+ getNumero_cartao() +
+                ", PIN=" + getPin() +
+                ", plafond=" + plafond +
                 ", levantamentos=" + levantamentos +
                 '}';
     }

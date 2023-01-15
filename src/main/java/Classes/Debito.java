@@ -18,8 +18,10 @@ public class Debito extends Cartao {
 
     @Override
     public String toString() {
-        return "Debito{" +
-                "valorLevantado=" + valorLevantado +
+        return "Debito{ " +
+                "Numero do cartão" + getNumero_cartao() +
+                ", PIN" + getPin() +
+                ", valorLevantado=" + valorLevantado +
                 '}';
     }
 }
