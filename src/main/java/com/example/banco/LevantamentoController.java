@@ -11,6 +11,7 @@ import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -20,7 +21,7 @@ public class LevantamentoController {
     private DataBase dataBase;
     private Cartao currentCartao;
     @FXML
-    private Label tflevantar;
+    private TextField tflevantar;
     @FXML
     protected void onLevantarButtonClick(ActionEvent event) throws IOException {
 
