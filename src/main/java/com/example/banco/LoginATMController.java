@@ -23,6 +23,17 @@ public class LoginATMController {
     private TextField tfPIN;
 
     @FXML
+    protected void onBackButtonClick(ActionEvent event) throws IOException {
+
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("Launch.fxml"));
+        Parent root = loader.load();
+
+        Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        Scene scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+    @FXML
     protected void onLoginButtonClick(ActionEvent event) throws IOException {
         for(Cartao cartao: dataBase.cartoes){
             if( tfCartao.getText().equals(cartao.getNumero_cartao()) && tfPIN.getText().equals(cartao.getPin())) {

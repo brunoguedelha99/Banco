@@ -48,6 +48,20 @@ public class DepositoController {
         stage.show();
     }
     @FXML
+    protected void onBackButtonClick(ActionEvent event) throws IOException {
+
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("ATM.fxml"));
+        Parent root = loader.load();
+
+        ATMController atmController = loader.getController();
+        atmController.receiveDatabase(dataBase,currentCartao);
+
+        Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        Scene scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+    @FXML
     public void receiveDatabase(DataBase dataBase, Cartao cartao)
     {
         this.dataBase=dataBase;

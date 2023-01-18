@@ -40,6 +40,17 @@ public class PaginaPrincipalController {
     TableColumn<ContaModule,Float> tcSaldo;
 
     @FXML
+    protected void onBackButtonClick(ActionEvent event) throws IOException {
+
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("LoginGestao.fxml"));
+        Parent root = loader.load();
+
+        Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        Scene scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+    @FXML
     protected void onContaButtonClick() throws IOException {
         dataBase.contas.add(new Conta(currentClient));
         getContasList(currentClient);

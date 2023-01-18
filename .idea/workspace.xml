@@ -5,9 +5,107 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fca5b61-eb42-4c6e-8d93-544609ad6564" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/src/main/java/Classes/Bank.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/src/main/java/Classes/Cartao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/src/main/java/Classes/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/src/main/java/Classes/Conta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/src/main/java/Classes/Credito.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/src/main/java/Classes/Debito.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/src/main/java/Classes/Deposito.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/src/main/java/Classes/Levantamento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/src/main/java/Classes/Operacoes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/src/main/java/Classes/Transferencia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/src/main/java/DataBase/DataBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/src/main/java/com/example/banco/ATMController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/src/main/java/com/example/banco/CartoesController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/src/main/java/com/example/banco/ContaModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/src/main/java/com/example/banco/DepositoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/src/main/java/com/example/banco/LaunchApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/src/main/java/com/example/banco/LaunchController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/src/main/java/com/example/banco/LevantamentoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/src/main/java/com/example/banco/LoginATMController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/src/main/java/com/example/banco/LoginGestaoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/src/main/java/com/example/banco/PaginaPrincipalController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/src/main/java/com/example/banco/TransferenciaController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/src/main/resources/com/example/banco/ATM.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/src/main/resources/com/example/banco/Cartoes.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/src/main/resources/com/example/banco/Deposito.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/src/main/resources/com/example/banco/Launch.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/src/main/resources/com/example/banco/Levantamento.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/src/main/resources/com/example/banco/LoginATM.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/src/main/resources/com/example/banco/LoginGestao.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/src/main/resources/com/example/banco/PaginaPrincipal.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/src/main/resources/com/example/banco/Transferencia.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/target/classes/Classes/Bank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/target/classes/Classes/Cartao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/target/classes/Classes/Cliente$Operacoes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/target/classes/Classes/Cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/target/classes/Classes/Conta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/target/classes/Classes/Credito.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/target/classes/Classes/Debito.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/target/classes/Classes/Deposito.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/target/classes/Classes/Levantamento.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/target/classes/Classes/Operacoes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/target/classes/Classes/Transferencia.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/target/classes/DataBase/DataBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/target/classes/com/example/banco/ATM.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/target/classes/com/example/banco/ATMController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/target/classes/com/example/banco/Cartoes.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/target/classes/com/example/banco/CartoesController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/target/classes/com/example/banco/ContaModule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/target/classes/com/example/banco/Deposito.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/target/classes/com/example/banco/DepositoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/target/classes/com/example/banco/Launch.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/target/classes/com/example/banco/LaunchApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/target/classes/com/example/banco/LaunchController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/target/classes/com/example/banco/Levantamento.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/target/classes/com/example/banco/LevantamentoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/target/classes/com/example/banco/LoginATM.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/target/classes/com/example/banco/LoginATMController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/target/classes/com/example/banco/LoginGestao.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/target/classes/com/example/banco/LoginGestaoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/target/classes/com/example/banco/PaginaPrincipal.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/target/classes/com/example/banco/PaginaPrincipalController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/target/classes/com/example/banco/Transferencia.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/target/classes/com/example/banco/TransferenciaController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/target/classes/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/banco/ATMController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/banco/ATMController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/banco/CartoesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/banco/CartoesController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/banco/DepositoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/banco/DepositoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/banco/LevantamentoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/banco/LevantamentoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/banco/LoginATMController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/banco/LoginATMController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/banco/LoginGestaoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/banco/LoginGestaoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/banco/PaginaPrincipalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/banco/PaginaPrincipalController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/banco/TransferenciaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/banco/TransferenciaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/banco/ATM.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/banco/ATM.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/banco/Cartoes.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/banco/Cartoes.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/banco/Deposito.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/banco/Deposito.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/banco/Levantamento.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/banco/Levantamento.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/banco/LoginATM.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/banco/LoginATM.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/banco/LoginGestao.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/banco/LoginGestao.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/banco/PaginaPrincipal.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/banco/PaginaPrincipal.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/banco/Transferencia.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/banco/Transferencia.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/banco/ATM.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/banco/ATM.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/banco/ATMController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/banco/ATMController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/banco/Cartoes.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/banco/Cartoes.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/banco/CartoesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/banco/CartoesController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/banco/Deposito.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/banco/Deposito.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/banco/DepositoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/banco/DepositoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/banco/Levantamento.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/banco/Levantamento.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/banco/LevantamentoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/banco/LevantamentoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/banco/LoginATM.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/banco/LoginATM.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/banco/LoginATMController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/banco/LoginATMController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/banco/LoginGestao.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/banco/LoginGestao.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/banco/LoginGestaoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/banco/LoginGestaoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/banco/PaginaPrincipal.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/banco/PaginaPrincipal.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/banco/PaginaPrincipalController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/banco/PaginaPrincipalController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/banco/Transferencia.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/banco/Transferencia.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/banco/TransferenciaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/banco/TransferenciaController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/module-info.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

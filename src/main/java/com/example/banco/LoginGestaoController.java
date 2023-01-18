@@ -26,6 +26,18 @@ public class LoginGestaoController {
     private TextField tfpass;
     @FXML
     private Button btnlogin;
+
+    @FXML
+    protected void onBackButtonClick(ActionEvent event) throws IOException {
+
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("Launch.fxml"));
+        Parent root = loader.load();
+
+        Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        Scene scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
     @FXML
     protected void onLoginButtonClick(ActionEvent event) throws IOException {
         for(Cliente client: dataBase.clientes){

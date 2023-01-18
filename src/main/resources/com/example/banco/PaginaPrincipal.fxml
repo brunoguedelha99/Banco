@@ -7,7 +7,7 @@
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.banco.PaginaPrincipalController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.banco.PaginaPrincipalController">
    <children>
       <Label fx:id="LabelNome" layoutX="134.0" layoutY="35.0" prefHeight="26.0" prefWidth="112.0" text="Nome" textAlignment="CENTER" wrapText="true" />
       <Button fx:id="btnConta" layoutX="134.0" layoutY="284.0" mnemonicParsing="false" onAction="#onContaButtonClick" prefHeight="72.0" prefWidth="142.0" text="Criar Conta" />
@@ -20,5 +20,6 @@
           <TableColumn fx:id="tcSaldo" prefWidth="143.0" text="Saldo" />
         </columns>
       </TableView>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#onBackButtonClick" text="&lt;-Back" />
    </children>
 </AnchorPane>
