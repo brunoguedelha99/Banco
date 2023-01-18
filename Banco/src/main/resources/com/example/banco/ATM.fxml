@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.banco.ATMController">
+   <children>
+      <Label layoutX="276.0" layoutY="34.0" text="ATM">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Button layoutX="246.0" layoutY="162.0" mnemonicParsing="false" onAction="#onDepositoButtonClick" prefHeight="64.0" prefWidth="103.0" text="Depósito" />
+      <Button layoutX="246.0" layoutY="82.0" mnemonicParsing="false" onAction="#onLevantamentoButtonClick" prefHeight="64.0" prefWidth="103.0" text="Levantamento" />
+      <Button layoutX="246.0" layoutY="237.0" mnemonicParsing="false" onAction="#onTransferenciaButtonClick" prefHeight="64.0" prefWidth="103.0" text="Transferência" />
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#onBackButtonClick" text="&lt;-Back" />
+   </children>
+</AnchorPane>
