@@ -60,6 +60,7 @@ public class ATMController {
 
         TransferenciaController transferenciaController = loader.getController();
         transferenciaController.receiveDatabase(dataBase,currentCartao);
+        transferenciaController.getContas(dataBase);
 
         Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         Scene scene = new Scene(root);

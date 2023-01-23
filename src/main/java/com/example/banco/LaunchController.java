@@ -1,5 +1,6 @@
 package com.example.banco;
 
+import Classes.Cartao;
 import DataBase.DataBase;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -13,7 +14,7 @@ import java.io.IOException;
 
 public class LaunchController {
 
-    private DataBase dataBase = new DataBase();
+    private static DataBase dataBase = new DataBase();
     @FXML
     protected void onGestaoButtonClick(ActionEvent event) throws IOException {
 
@@ -48,6 +49,11 @@ public class LaunchController {
         Scene scene = new Scene(root);
         stage.setScene(scene);
         stage.show();
+    }
+    @FXML
+    public void receiveDatabase(DataBase dataBase)
+    {
+        this.dataBase=dataBase;
     }
 
 }
